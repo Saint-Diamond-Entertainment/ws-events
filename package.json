@@ -1,0 +1,25 @@
+{
+  "name": "ws-events-sde",
+  "version": "1.0.1",
+  "description": "Package with WebSocket events",
+  "main": "dist/index.js",
+  "types": "src/index",
+  "repository": "Saint-Diamond-Entertainment/ws-events",
+  "homepage": "https://github.com/Saint-Diamond-Entertainment/ws-events",
+  "bugs": "https://github.com/Saint-Diamond-Entertainment/ws-events/issues",
+  "keywords": [
+    "websocket events",
+    "ws events",
+    "ws events sde",
+    "wss events sde",
+    "real time"
+  ],
+  "author": "dmuzychenko",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
