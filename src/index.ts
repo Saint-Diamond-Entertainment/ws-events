@@ -12,8 +12,9 @@ export const WEBSOCKET_CLIENT_EVENT_MEMBER_SET_OFFLINE: string = 'member/set-off
 export const WEBSOCKET_CLIENT_EVENT_MEMBER_SET_ONLINE: string = 'member/set-online'
 export const WEBSOCKET_CLIENT_EVENT_MEMBER_TYPE: string = 'member/type'
 export const WEBSOCKET_CLIENT_EVENT_MESSAGE_DELETE: string = 'message/delete'
-export const WEBSOCKET_CLIENT_EVENT_MESSAGE_RECEIVE: string = 'message/receive'
+export const WEBSOCKET_CLIENT_EVENT_MESSAGE_RECEIVE: string = 'messagse/receive'
 
+export const WEBSOCKET_SERVER_EVENT_CHAT_DELETE: string = 'chat/delete'
 export const WEBSOCKET_SERVER_EVENT_CHAT_LEAVE: string = 'chat/leave'
 export const WEBSOCKET_SERVER_EVENT_CHAT_RENAME: string = 'chat/rename'
 export const WEBSOCKET_SERVER_EVENT_CHAT_SET_ACCESS: string = 'chat/set-access'
