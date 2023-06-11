@@ -12,6 +12,7 @@ export const WEBSOCKET_CLIENT_EVENT_MEMBER_SET_OFFLINE: string = 'member/set-off
 export const WEBSOCKET_CLIENT_EVENT_MEMBER_SET_ONLINE: string = 'member/set-online'
 export const WEBSOCKET_CLIENT_EVENT_MEMBER_TYPE: string = 'member/type'
 export const WEBSOCKET_CLIENT_EVENT_MESSAGE_DELETE: string = 'message/delete'
+export const WEBSOCKET_CLIENT_EVENT_MESSAGE_READ: string = 'message/read'
 export const WEBSOCKET_CLIENT_EVENT_MESSAGE_RECEIVE: string = 'message/receive'
 
 export const WEBSOCKET_SERVER_EVENT_CHAT_DELETE: string = 'chat/delete'
@@ -27,4 +28,5 @@ export const WEBSOCKET_SERVER_EVENT_MATCHING_STOP: string = 'matching/stop'
 export const WEBSOCKET_SERVER_EVENT_MEMBER_JOIN: string = 'member/join'
 export const WEBSOCKET_SERVER_EVENT_MEMBER_KICK: string = 'member/kick'
 export const WEBSOCKET_SERVER_EVENT_MESSAGE_DELETE: string = 'message/delete'
+export const WEBSOCKET_SERVER_EVENT_MESSAGE_READ: string = 'message/read'
 export const WEBSOCKET_SERVER_EVENT_MESSAGE_SEND: string = 'message/send'
